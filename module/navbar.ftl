@@ -32,7 +32,7 @@
                         </li>
                     </#list>
                 </@menuTag>
-                <@categoryTag method="list">
+                <#--  <@categoryTag method="list">
                     <#if categories?? && categories?size gt 0>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="javascript:void(0)" id="navbarDropdown"
@@ -57,7 +57,7 @@
                             </div>
                         </li>
                     </#if>
-                </@categoryTag>
+                </@categoryTag>  -->
             </ul>
             <form id="search" class="form-inline my-2 my-lg-0" method="get" action="/search">
                 <input class="form-control mr-sm-2" name="keyword" type="search" value="${keyword!}"
